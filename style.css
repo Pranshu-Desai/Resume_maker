@@ -1,0 +1,49 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	
+}
+.wrapper {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+form {
+	background-color: #f2f2f2;
+	padding: 20px;
+	border-radius: 10px;
+	backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	margin-top: 20px;
+}
+
+label {
+	display: block;
+	margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc
+}

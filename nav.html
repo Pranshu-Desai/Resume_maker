@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div
+        class="navbar-overlay"
+        onclick="toggleMenuOpen()"
+      ></div>
+      <button
+        type="button"
+        class="navbar-burger"
+        onclick="toggleMenuOpen()"
+      >
+        <span class="material-icons">menu</span>
+      </button>
+       <h1 class="navbar-title">Awards</h1>
+      <nav class="navbar-menu">
+        <button type="button">Skills</button>
+        <button type="button">Awards</button>
+        <button type="button">Projects</button>
+      </nav>
+    </nav>
+    <script type="text/javascript">
+      const toggleMenuOpen = () => {
+        document.body.classList.toggle("open");
+      };
+    </script>
+  </body>
+</html>
